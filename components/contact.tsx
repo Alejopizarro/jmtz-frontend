@@ -6,7 +6,7 @@ const Contact = ({ index }: { index: number }) => {
       index={index}
       bgImage="/conference.jpg"
       textColor="text-foreground"
-      buttonVariant="foreground"
+      sectionColor="var(--color-foreground)"
     >
       <h1 className="text-6xl lg:text-8xl font-black mb-6 leading-tight">
         Ut Labore Et Dolore

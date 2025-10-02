@@ -6,7 +6,7 @@ const Services = ({ index }: { index: number }) => {
       index={index}
       bgImage="/conference.jpg"
       textColor="text-background"
-      buttonVariant="background"
+      sectionColor="var(--color-background)"
     >
       <h1 className="text-6xl lg:text-8xl font-black mb-6 leading-tight">
         Excepteur Sint Occaecat

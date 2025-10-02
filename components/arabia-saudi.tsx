@@ -7,7 +7,6 @@ const ArabiaSaudi = ({ index }: { index: number }) => {
       bgImage="/conference.jpg"
       textColor="text-section-teal"
       sectionColor="var(--color-section-teal)"
-      buttonVariant="background"
     >
       <h2 className="text-2xl lg:text-4xl font-light mb-6 leading-tight">
         In Saudi Arabia
@@ -18,9 +17,9 @@ const ArabiaSaudi = ({ index }: { index: number }) => {
         <span className="font-black">sports can transform a nation</span>
       </p>
       <p className="text-xl opacity-70 max-w-2xl leading-relaxed">
-        Led sponsorship and corporate partnerships for Qiddiya—Saudi Arabia's
-        mega entertainment destination—shaping the nation's Vision 2030
-        transformation.
+        Led sponsorship and corporate partnerships for Qiddiya—Saudi
+        Arabia&#39;s mega entertainment destination—shaping the nation&#39;s
+        Vision 2030 transformation.
       </p>
     </ScrollSection>
   );

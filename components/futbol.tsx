@@ -7,7 +7,6 @@ const Futbol = ({ index }: { index: number }) => {
       bgImage="/conference-man.jpg"
       textColor="text-section-pink"
       sectionColor="var(--color-section-pink)"
-      buttonVariant="background"
     >
       <h2 className="text-2xl lg:text-4xl font-extralight mb-6 leading-tight">
         At Atletico de Madrid and Manchester City

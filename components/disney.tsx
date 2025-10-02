@@ -7,7 +7,6 @@ const Disney = ({ index }: { index: number }) => {
       bgImage="/conference.jpg"
       textColor="text-section-orange"
       sectionColor="var(--color-section-orange)"
-      buttonVariant="background"
     >
       <h2 className="text-2xl lg:text-4xl font-light mb-6 leading-tight">
         At Disney

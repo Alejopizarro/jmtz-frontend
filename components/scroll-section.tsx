@@ -8,7 +8,6 @@ interface ScrollSectionProps {
   bgImage: string;
   textColor: string;
   sectionColor: string;
-  buttonVariant: "primary" | "foreground" | "background";
   children: ReactNode;
 }
 
@@ -17,7 +16,6 @@ const ScrollSection = ({
   bgImage,
   textColor,
   sectionColor,
-  buttonVariant,
   children,
 }: ScrollSectionProps) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -28,12 +26,6 @@ const ScrollSection = ({
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
   const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1, 0]);
-
-  const buttonStyles = {
-    primary: "bg-primary text-background",
-    foreground: "bg-foreground text-background",
-    background: "bg-background text-foreground",
-  };
 
   return (
     <motion.div
