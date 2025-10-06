@@ -20,6 +20,9 @@ const AboutMe = ({ index }: { index: number }) => {
         I&#39;ve lived fandom from the inside of the world&#39;s most inspiring
         brands.
       </p>
+      <button className="hover:scale-105 mt-12 px-12 py-4 bg-[var(--color-section-gold)] rounded-full font-bold text-lg text-slate-950 shadow-2xl hover:shadow-3xl transition-all">
+        Discover My Story
+      </button>
     </ScrollSection>
   );
 };

@@ -12,9 +12,9 @@ const ArabiaSaudi = ({ index }: { index: number }) => {
         In Saudi Arabia
       </h2>
 
-      <p className="text-4xl lg:text-6xl uppercase max-w-3xl mb-6 tracking-tight leading-none">
+      <p className="text-4xl lg:text-6xl uppercase max-w-3xl mb-6 font-black tracking-tight leading-none">
         I witnessed how{" "}
-        <span className="font-black">sports can transform a nation</span>
+        <span className="font-black ">sports can transform a nation</span>
       </p>
       <p className="text-xl opacity-70 max-w-2xl leading-relaxed">
         Led sponsorship and corporate partnerships for Qiddiya—Saudi

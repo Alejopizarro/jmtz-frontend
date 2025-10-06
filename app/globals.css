@@ -124,8 +124,8 @@
 }
 .embla {
   --slide-height: 19rem;
-  --slide-spacing: 1rem;
-  --slide-size: 33.333%; /* 3 slides visibles */
+  --slide-spacing: 2rem;
+  --slide-size: 25%;
 }
 .embla__viewport {
   overflow: hidden;

@@ -12,7 +12,7 @@ const Futbol = ({ index }: { index: number }) => {
         At Atletico de Madrid and Manchester City
       </h2>
 
-      <p className="text-4xl lg:text-6xl uppercase max-w-3xl mb-6 tracking-tight leading-none">
+      <p className="text-4xl lg:text-6xl uppercase font-black max-w-3xl mb-6 tracking-tight leading-none">
         I experienced how{" "}
         <span className="font-black">fans fuel entire business models.</span>
       </p>

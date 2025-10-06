@@ -21,7 +21,7 @@ const Carousel: React.FC<PropType> = (props) => {
   const { steps, options } = props;
 
   const autoplay = Autoplay({
-    delay: 3000,
+    delay: 2000,
     stopOnInteraction: false,
     stopOnMouseEnter: true, // Se pausa al pasar el mouse
   });

@@ -45,7 +45,7 @@ const ScrollSection = ({
       {/* Overlay negro con transparencia */}
       <div className="absolute inset-0 bg-black/50 pointer-events-none z-0" />
 
-      <div className="container mx-auto px-6 py-20 lg:px-12 lg:py-28 flex flex-col justify-center min-h-screen relative z-10">
+      <div className="container mx-auto px-6 lg:px-12 lg:py-32 flex flex-col justify-center min-h-screen relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
