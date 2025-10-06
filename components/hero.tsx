@@ -21,7 +21,7 @@ const Hero = ({ index }: { index: number }) => {
         OR PRODUCT—and I&#39;ll show you how to own it!
       </p>
       <button className="hover:scale-105 mt-12 px-12 py-4 bg-primary rounded-full font-bold text-lg text-slate-50 shadow-2xl hover:shadow-3xl transition-all">
-        Conoce Más
+        Let’s Talk Growth
       </button>
     </ScrollSection>
   );
