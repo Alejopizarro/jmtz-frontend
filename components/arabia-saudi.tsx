@@ -12,7 +12,7 @@ const ArabiaSaudi = ({ index }: { index: number }) => {
         In Saudi Arabia
       </h2>
 
-      <p className="text-4xl lg:text-6xl uppercase max-w-3xl mb-6 font-black tracking-tight leading-none">
+      <p className="text-4xl lg:text-6xl uppercase font-serif max-w-3xl mb-6 font-light tracking-tight leading-none">
         I witnessed how{" "}
         <span className="font-black ">sports can transform a nation</span>
       </p>

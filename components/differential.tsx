@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Differential = () => {
   return (
     <section className="bg-background relative">
-      <motion.div className="max-w-7xl mx-auto flex flex-col gap-8 py-20 px-8 lg:py-26">
+      <motion.div className="max-w-7xl mx-auto flex flex-col gap-8 py-12 px-4 lg:py-26">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

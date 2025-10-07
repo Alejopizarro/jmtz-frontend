@@ -12,7 +12,7 @@ const Disney = ({ index }: { index: number }) => {
         At Disney
       </h2>
 
-      <p className="text-4xl lg:text-5xl uppercase font-black max-w-3xl mb-6 tracking-tight leading-none">
+      <p className="text-4xl lg:text-5xl uppercase font-light font-serif max-w-3xl mb-6 tracking-tight leading-none">
         I saw how <span className="font-black">storytelling</span> creates{" "}
         <span className="font-black">love</span> that lasts a lifetime that{" "}
         <span className="font-black">boost organic business growth.</span>
